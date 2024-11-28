@@ -38,7 +38,7 @@ For example, in fine arts, there are painting techniques, styles, and schools of
 
 # How to install
 
-1. Visit your browser extension store to install this plugin:
+1. Visit your browser extension store to install this plugin:(chrome reviews are stricter later)：
 <p align="center">
 
   <a href="https://chromewebstore.google.com/detail/choosejourney/lhhnmdfkkdmflpnpcngmiofcnokikmgf?authuser=0&hl=zh-CN" target="_blank">
@@ -60,7 +60,7 @@ For example, in fine arts, there are painting techniques, styles, and schools of
 
 # Future Plans
 
-- [-] Complete UI/UX optimization (even more user-friendly)
+- [x] Complete UI/UX optimization (even more user-friendly)
 - [ ] Support More Translation Interfaces
 - [ ] Provide Default AI and Translation
 - [ ] Welcome Your Suggestions 👏

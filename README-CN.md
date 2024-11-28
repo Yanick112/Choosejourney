@@ -38,7 +38,7 @@
 
 # 怎么安装
 
-1. 访问您的浏览器扩展商店以安装此插件：
+1. 访问您的浏览器扩展商店以安装此插件（chrome 审核较为严格晚些时候更新）：
 <p align="center">
 
   <a href="https://chromewebstore.google.com/detail/choosejourney/lhhnmdfkkdmflpnpcngmiofcnokikmgf?authuser=0&hl=zh-CN" target="_blank">
@@ -60,7 +60,7 @@
 
 # 未来计划
 
-- [-] UIUX 全新优化（更好用了）
+- [x] UIUX 全新优化（更好用了）
 - [ ] 支持更多的翻译接口
 - [ ] 提供默认的 AI 与翻译
 - [ ] 欢迎提供意见 👏
