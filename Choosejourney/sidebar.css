@@ -84,29 +84,14 @@ body {
     align-items: center;
 }
 
-.up-divider .line.short {
-    height: 1.5px;
+.line.short {
+    height: 2px;
     border-radius: 1px;
     background-color: #E6E6E6;
-    width: 15px;
+    width: 20px;
     margin: 4px 0;
 }
 
-.divider .line {
-    height: 1px;
-    border-radius: 1px;
-    background-color: #E6E6E6;
-}
-
-.divider .line.long {
-    height: 1.5px;
-    width: 100%;
-    margin: 0px 0;
-}
-
-.divider .line.short {
-    width: 20px;
-}
 
 .button-container .button {
     margin-top: 1px;
@@ -292,7 +277,7 @@ body {
 
 .shaking {
     border-color: #e3e4e6;
-    animation: shake 0.3s infinite;
+    animation: shake 0.05s infinite;
     transform-origin: 50% 50%;
 }
 
@@ -334,6 +319,35 @@ body {
     margin: auto;
     margin-right: 0px;
     cursor: pointer;
+}
+
+.generating {
+    background: linear-gradient(135deg, #A7B5FF, #efadff, #fdd6b4, #fef3ed, #bcddfc, #afb2ff, #ecacfd, #fed7b3);
+    background-size: 800% 800%;
+    animation: gradientAnimation 20s forwards infinite;
+    color: #fff;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .drag-drop-area,

@@ -1,14 +1,21 @@
 <p align="center"><picture>
-<img alt="Choosejourney" src="https://s21.ax1x.com/2024/10/20/pAatlLR.png">
+<img alt="Choosejourney" src="https://yanick.oss-cn-beijing.aliyuncs.com/img/README-2024-11-02-06-36-46.png">
 </picture>
 </p>
 <p align="center">
+    <br> English | <a href="README-CN.md">中文</a>
+</p>
+<p align="center">
+    <em>AI empowers a general-purpose prompt assistant, systematically generating and selecting prompts on AI generation platforms such as Midjourney, Suno, ComfyUI, and others for images, music, documents, and more.</em>
+</p>
+
+<p align="center">
 
   <a href="https://chromewebstore.google.com/detail/choosejourney/lhhnmdfkkdmflpnpcngmiofcnokikmgf?authuser=0&hl=zh-CN" target="_blank">
-    <img src="https://s21.ax1x.com/2024/10/20/pAatrwt.png" />
+    <img src="https://yanick.oss-cn-beijing.aliyuncs.com/img/README-2024-11-02-06-37-42.png" />
   </a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/choosejourney/mfpjhghgmaicdaaljjgiglmmdjoiacga" target="_blank">
-    <img src="https://s21.ax1x.com/2024/10/20/pAatDeI.png" />
+    <img src="https://yanick.oss-cn-beijing.aliyuncs.com/img/README-2024-11-02-06-37-19.png" />
   </a>
 </p>
 
@@ -35,28 +42,25 @@
 <p align="center">
 
   <a href="https://chromewebstore.google.com/detail/choosejourney/lhhnmdfkkdmflpnpcngmiofcnokikmgf?authuser=0&hl=zh-CN" target="_blank">
-    <img src="https://s21.ax1x.com/2024/10/20/pAatrwt.png" />
+    <img src="https://yanick.oss-cn-beijing.aliyuncs.com/img/README-2024-11-02-06-37-42.png" />
   </a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/choosejourney/mfpjhghgmaicdaaljjgiglmmdjoiacga" target="_blank">
-    <img src="https://s21.ax1x.com/2024/10/20/pAatDeI.png" />
+    <img src="https://yanick.oss-cn-beijing.aliyuncs.com/img/README-2024-11-02-06-37-19.png" />
   </a>
 </p>
 
-2. 在浏览器侧边插件视图中右键点击 AI 图标，然后将获得的 API 密钥以及翻译密钥输入到该插件，保存。
-
-   <p align="center">
-     <img width="600" src="gif\set.gif" />
-   </p>
+2. 在浏览器侧边插件视图中右键点击设置图标，然后将获得的 API 密钥以及翻译密钥输入到该插件，保存。
 
 3. 开始使用吧 🎉!
 
 # 需要准备些什么
 
 - 大语言模型的 API 地址及密钥
-- 百度翻译密钥（暂时仅支持百度）
+- 百度翻译密钥（暂时仅支持百度），地址：https://fanyi-api.baidu.com/api/trans/product/index
 
 # 未来计划
 
+- [-] UIUX 全新优化（更好用了）
 - [ ] 支持更多的翻译接口
 - [ ] 提供默认的 AI 与翻译
 - [ ] 欢迎提供意见 👏

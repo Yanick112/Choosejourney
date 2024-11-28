@@ -51,19 +51,16 @@ For example, in fine arts, there are painting techniques, styles, and schools of
 
 2. Right-click the AI icon in the browser sidebar plugin view, then enter the obtained API key and translation key into the plugin and save.
 
-   <p align="center">
-     <img width="600" src="gif\set.gif" />
-   </p>
-
 3. Get started 🎉!
 
 # What Do I Need to Prepare?
 
 - The API address and key for the large language model
-- Baidu Translation Key (Currently Only Supports Baidu)
+- Baidu Translation Key (Currently Only Supports Baidu)，address: https://fanyi-api.baidu.com/api/trans/product/index
 
 # Future Plans
 
+- [-] Complete UI/UX optimization (even more user-friendly)
 - [ ] Support More Translation Interfaces
 - [ ] Provide Default AI and Translation
 - [ ] Welcome Your Suggestions 👏

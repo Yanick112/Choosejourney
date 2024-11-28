@@ -205,7 +205,7 @@ let organizedData = {};
 let cycleNumber = 3;
 let deleteMode = false;
 let isUpperSectionHidden = false;
-let randomMode = false; // 新增随机模式变量
+let randomMode = false;
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -891,7 +891,11 @@ function addSpecialButton(container, level) {
             inputBox.focus();
             return;
         }
+        statusMessage.textContent = '正在生成内容...';
+        statusMessage.classList.add('generating');
         aiGenerateContent(inputValue, level).then(generatedContent => {
+            statusMessage.textContent = '';
+            statusMessage.classList.remove('generating');
             if (level === '编辑区') {
                 const dragDropArea = document.getElementById('drag-drop-area');
                 const newButton = createButton(generatedContent, generatedContent);
@@ -1005,9 +1009,9 @@ async function aiGenerateContent(input, level) {
     const apiKey = localStorage.getItem('aiApiKey');
     const model = localStorage.getItem('aiModel') || 'gpt-4o-mini';
     const proxyUrl = localStorage.getItem('proxyUrl');
-    if (!apiKey) {
-        console.error('未找到AI密钥，请先设置AI密钥');
-        throw new Error('未找到AI密钥');
+    if (!apiKey || !model || !proxyUrl) {
+        showSettingsDialog();
+        throw new Error('未找到AI密钥或模型或代理URL，请先设置');
     }
     let apiUrl;
     apiUrl = proxyUrl;
@@ -1263,6 +1267,7 @@ async function disassembleItem(item) {
             newButtonText = itemText.trim();
             const newButton = createButton(itemText.trim(), newButtonText);
             insertButton(dragDropArea, newButton, backFixedButtons);
+            await translateItem(newButton);
         }
     }
     for (const itemText of parameters) {

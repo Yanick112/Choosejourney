@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Choosejourney",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "AI赋能通用型提示词助手，有条理地在Midjourney、Suno、ComfyUI等图像音乐文档的AI生成平台上生成与选择提示词。",
   "icons": {
     "16": "images/icon-16.png",
@@ -14,7 +14,6 @@
     "clipboardWrite",
     "tabs",
     "scripting",
-    "storage",
     "sidePanel"
   ],
   "side_panel": {
