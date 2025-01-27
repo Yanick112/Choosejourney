@@ -19,7 +19,7 @@
   </a>
 </p>
 
-# Why build this wheel?
+# Why build this?
 
 During the use of various AI applications, how to edit an accurate and appropriate prompt has become a challenging problem for me.
 
