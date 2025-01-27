@@ -65,13 +65,6 @@ For example, in fine arts, there are painting techniques, styles, and schools of
 - [ ] Provide Default AI and Translation
 - [ ] Welcome Your Suggestions 👏
 
-# Support this project
-
-A pack of spicy sticks 🌶 can bring me joy for a whole day!
-
-   <p align="center">
-     <img width="500" src="打赏码.png" />
-   </p>
 
 # License
 
